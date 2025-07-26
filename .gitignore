@@ -1,0 +1,53 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.bin
+*.elf
+*.hex
+*.exe
+*.out
+
+# Arduino build and dependency folders
+.build/
+.build-*/
+*.a
+*.d
+
+# IntelliSense and IDE specific
+.vscode/
+*.code-workspace
+
+# Arduino Sketch specific files
+*.ino.*
+*.cpp.*
+*.h.*
+*.bak
+*.tmp
+
+# Arduino and ESP32 libraries (optional: if managed externally)
+libraries/
+
+# Board-specific build folders
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Mac OS and system files
+*.DS_Store
+ehthumbs.db
+Icon?
+
+# PlatformIO (if used)
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.compile_flags.txt
+.platformio/
+
+# Arduino Pro IDE and Arduino IDE 2.x cache
+arduino.json
+sketch.json
+.idea/
